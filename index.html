@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fila de vacinação</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center mt-3 mb-5">Fila de vacinação</h1>
+
+        <button class="mb-3 btn btn-dark mr-2" onclick="criaTabela(listaDePessoas)">Ver lista de espera</button>
+        <button class="mb-3 btn btn-dark mr-2" onclick="criaTabela(grupo1)">Dia 01 de vacinação</button>
+        <button class="mb-3 btn btn-dark mr-2" onclick="criaTabela(grupo2)">Dia 02 de vacinação</button>
+        <button class="mb-3 btn btn-dark mr-2" onclick="criaTabela(grupo3)">Dia 03 de vacinação</button>
+        <button class="mb-3 btn btn-dark" onclick="criaTabela(grupo4)">Dia 04 de vacinação</button>
+        <table class="table table-hover bg-light" id="table">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Area de atuação</th>
+                </tr>
+            </thead>
+
+            <tbody id="body">
+                <tr id="tr">                
+                </tr>
+               
+            </tbody>
+
+        </table>
+
+       
+        <!-- <h2>Cronograma de vacinação</h2>
+        <h5>Dia 01</h5>
+
+        <table class="table table-hover bg-light">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Area de atuação</th>
+                </tr>
+            </thead>
+
+            <tbody id="body-01">
+                <tr id="tr-01">
+                    
+                </tr>
+            </tbody>
+
+        </table> -->
+
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
